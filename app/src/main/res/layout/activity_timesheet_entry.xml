@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/app_background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnHomeTimsheet"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/mauve"
+        android:text="HOME"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icons"
+
+                />
+
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/mauve"
+                android:drawableLeft="@drawable/baseline_photowhite_24"
+                android:layout_gravity="center"
+                android:text="CAMERA"
+                android:textSize="10dp"
+                app:cornerRadius="20dp"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/mauve"
+                android:text="SELECT CATEGORY"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:padding="15dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="SET DATE"
+                android:id="@+id/btn_set_date"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/mauve"
+                app:cornerRadius = "20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="SET TIME"
+                android:id="@+id/btn_set_time"
+                android:textSize="18sp"
+                android:backgroundTint="@color/mauve"
+                app:cornerRadius = "20dp" />
+
+
+            <EditText
+                android:id="@+id/etDescription"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/custom"
+                android:drawablePadding="8dp"
+                android:hint="Enter description"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="ADD ENTRY"
+                android:id="@+id/btn_add_entry"
+                android:textSize="18sp"
+                android:backgroundTint="@color/mauve"
+                app:cornerRadius = "20dp" />
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+

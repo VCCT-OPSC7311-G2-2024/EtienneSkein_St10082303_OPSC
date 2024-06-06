@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/app_background"
+    tools:showIn = "navi">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+        android:icon = "@drawable/baseline_homewhite_24"
+        android:title = "Home"/>
+
+        <item android:id="@+id/login"
+            android:icon = "@drawable/baseline_loginwhite_24"
+            android:title = "Log In"/>
+
+        <item android:id="@+id/logout"
+            android:drawableLeft="@drawable/baseline_logoutwhite_24"
+            android:title = "Log Out"/>
+
+
+</group>
+
+</menu>

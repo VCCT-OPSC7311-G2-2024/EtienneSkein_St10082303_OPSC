@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "759944120392",
+    "project_id": "opsc-real",
+    "storage_bucket": "opsc-real.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759944120392:android:365c17a2ef8969c64c307d",
+        "android_client_info": {
+          "package_name": "com.example.opsc7311part2gr10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40O2oL11kLoE39P-UAAOSeS8-GcMsWPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
